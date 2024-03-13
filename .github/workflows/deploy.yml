@@ -68,7 +68,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with: 
           bucket: lipsilverhand-gh-customaction-hosting
-          bucket-region: 'us-west-2'
           dist-folder: ./dist
 
       
